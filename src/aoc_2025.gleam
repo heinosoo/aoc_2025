@@ -6,11 +6,13 @@ import day_03_p1
 import day_03_p2
 import day_04_p1
 import day_04_p2
+import day_05_p1
+import day_05_p2
 
 pub fn main() {
-  day_04_p1.main()
-  day_04_p2.main()
-  // previous()
+  day_05_p1.main()
+  day_05_p2.main()
+  previous()
 }
 
 pub fn previous() {
@@ -22,4 +24,7 @@ pub fn previous() {
 
   day_03_p1.main()
   day_03_p2.main()
+
+  day_04_p1.main()
+  day_04_p2.main()
 }
